@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+/* Base styles */
+body {
+  font-family: serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  background-color: #292929;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 0.5em;
+}
+
+.search-bar button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Theme toggle */
+.theme-toggle {
+  display: none;
+}
+
+/* Banner */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-caption h2,
+.banner-caption p {
+  margin: 0;
+}
+
+.banner-caption a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* News articles */
+.news-articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Slideshow (optional) */
+/* ... */
+
+</style>
+<body>
+    <header>
+        <h1>News<a href="main.html"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Nation</li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Inclusion</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search News">
+                <button type="button"><img src="search-icon.svg" alt="Search"></button>
+            </div>
+            <div class="theme-toggle">
+                <button id="theme-toggle-btn">Toggle Theme</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+          <h1><center>Celebrating Our Differences: How Diversity Strengthens Communities</center></h1>
+          <p>Everywhere we look, we see the rich tapestry of human diversity. From our backgrounds and beliefs to our experiences and perspectives, our differences are what make us unique and contribute to the vibrancy of our communities.</p>
+          <h2>Ways that diversity strengthens our society:</h2>
+          <ul>
+            <li>Enhanced creativity and innovation: When people from different backgrounds come together, they bring a wider range of ideas and perspectives to the table. This can lead to more creative solutions to problems and innovative approaches to challenges.</li>
+            <li>Stronger decision-making: Diverse teams are better at considering different viewpoints and potential biases, leading to more well-rounded and effective decisions.</li>
+            <li>Greater understanding and empathy: By interacting with people from different backgrounds, we can learn about their experiences and develop a deeper understanding of the world around us. This fosters empathy and compassion, building stronger bonds within communities.</li>
+            <li>Richer cultural experiences: Diversity allows us to experience different cultures, traditions, and perspectives, enriching our lives and broadening our horizons.</li>
+        
+            <h2>Examples of data that support these claims:</h2>
+            <li>A study by McKinsey & Company found that companies with more diverse leadership teams were 21% more likely to outperform their peers on profitability.</li>
+            <li>A Harvard Business Review article cites research showing that diverse teams are better at problem-solving and innovation.</li>
+            <li>A study by the University of California, Berkeley found that students who interacted with diverse peers showed greater academic achievement and critical thinking skills.</li>
+        
+          </ul>
+          <p>Sources:</p>
+          <ul>
+            <li><a href="https://www.mckinsey.com/featured-insights/diversity-and-inclusion/diversity-matters-even-more-the-case-for-holistic-impact">McKinsey & Company</a></li>
+            <li><a href="https://hbr.org/2016/11/why-diverse-teams-are-smarter">Harvard Business Review</a></li>
+            <li><a href="https://greatergood.berkeley.edu/topic/diversity">University of California, Berkeley</a></li>
+          </ul>
+          <p>Celebrating diversity is not just about recognizing differences. It's about creating a world where everyone feels valued, respected, and empowered to contribute their unique talents and perspectives. By embracing our differences, we can build stronger, more vibrant, and equitable communities for all.</p>
+ 
+    </main>
+    <footer>
+        <p>Contact Us | Subscribe to Newsletter</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
